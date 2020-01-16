@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+      <script>
+
+var height = +prompt('Введите высоту елочки!'); 
+var tree = '';
+
+  for (var stars = 1; stars <= height; ++stars)
+    {
+        for (var i = stars; i <= height; ++i) {
+         tree += " ";
+        }
+
+        for (var j = stars; j != 0; --j) {
+        	tree += "* ";
+        }
+
+        tree += "\n";
+    }
+    alert(tree);
+
+        </script>
+</body>
+</html> 
